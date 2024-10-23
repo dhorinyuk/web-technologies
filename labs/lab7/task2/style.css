@@ -1,0 +1,54 @@
+/* Стилі для блоків */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.block {
+    text-align: center;
+    color: white;
+    margin: 10px;
+    position: absolute;
+}
+
+.block1 {
+    background-color: green;
+    top: 200px;
+    left: 400px;
+    width: 200px;
+    height: 70px;
+    line-height:70px;
+}
+
+.block2 {
+    background-color: blue;
+    display: none; /* Спочатку прихований */
+    top: 270px;
+    left: 400px;
+    width: 200px;
+    height: 150px;
+    line-height:120px;
+}
+
+.block3 {
+    background-color: purple;
+    display: none; /* Спочатку прихований */
+    top: 200px;
+    left: 600px;
+    width: 250px;
+    height: 220px;
+    line-height:180px;
+}
+
+/* Поява блоків при наведенні */
+.block1:hover + .block2, /* Показати блок 2 при наведенні на блок 1 */
+.block2:hover {           /* Блок 2 залишається видимим при наведенні на нього */
+    display: block;
+}
+
+/* Поява блоку 3 при наведенні на блок 2 */
+.block2:hover + .block3 {
+    display: block;
+}

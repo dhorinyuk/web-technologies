@@ -1,0 +1,113 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Горизонтальна панель навігації */
+.horizontal-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.horizontal-nav a {
+    color: white;
+    margin-right: 20px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.horizontal-nav a:hover {
+    color: #ffa500;
+}
+
+.float-right {
+    margin-left: auto;
+}
+
+/* Область для активації меню */
+.menu-hover-area {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 40px; /* Ширина активної зони для наведення */
+    height: 100%;
+    z-index: 1;
+}
+
+/* Вертикальна панель навігації */
+.vertical-nav {
+    position: fixed;
+    top: 50px;
+    left: -200px; /* Початково прихована */
+    width: 200px;
+    background-color: #222;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    transition: left 0.3s ease;
+    z-index: 2;
+}
+
+.menu-hover-area:hover .vertical-nav {
+    left: 0; /* Меню виїжджає при наведенні на активну зону */
+}
+
+.vertical-nav a {
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.vertical-nav a:hover {
+    background-color: #444;
+}
+
+.vertical-nav a.active {
+    background-color: #333;
+}
+
+/* Основний контент сторінки */
+.content {
+    margin-left: 20px;
+    padding: 70px 20px;
+    transition: margin-left 0.3s ease;
+}
+
+.menu-hover-area:hover ~ .content {
+    margin-left: 220px; /* Відступ для відкритого меню */
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Іконки */
+.material-icons {
+    margin-right: 10px;
+}
