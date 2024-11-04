@@ -1,0 +1,89 @@
+// Змінні
+$primary-color: yellowgreen;
+$secondary-color: white;
+$font-size: 2vh;
+$padding: 10px;
+$margin: 10px 0;
+$grid-gap: 10px;
+
+// Міксіни
+@mixin grid-container($columns, $rows, $gap) {
+  display: grid;
+  grid-template-columns: repeat($columns, 1fr);
+  grid-template-rows: repeat($rows, 1fr);
+  grid-gap: $gap;
+}
+
+@mixin box-style($color, $padding, $font-size) {
+  color: $color;
+  font-size: $font-size;
+  padding: $padding;
+  background: $primary-color;
+  text-align: center;
+}
+
+// Функція
+@function responsive-margin($base-margin, $factor: 1) {
+  @return $base-margin * $factor;
+}
+
+// Основний код
+.grid {
+  display: block;
+
+  @media screen and (min-width: 576px) {
+    @include grid-container(6, 12, $grid-gap);
+  }
+
+  .box {
+    @include box-style($secondary-color, $padding, $font-size);
+    margin: $margin;
+
+    @media screen and (min-width: 576px) {
+      margin: 0;
+
+      &:nth-child(1) {
+        grid-row: span 12;
+        grid-column: span 2;
+      }
+
+      &:nth-child(2),
+      &:nth-child(3) {
+        grid-row: span 6;
+        grid-column: span 2;
+      }
+
+      &:nth-child(4),
+      &:nth-child(5),
+      &:nth-child(6) {
+        grid-row: span 4;
+        grid-column: span 2;
+      }
+
+      &:nth-child(7),
+      &:nth-child(8),
+      &:nth-child(9),
+      &:nth-child(10) {
+        grid-row: span 3;
+        grid-column: span 1;
+      }
+
+      &:nth-child(11),
+      &:nth-child(12),
+      &:nth-child(13),
+      &:nth-child(14),
+      &:nth-child(15),
+      &:nth-child(16) {
+        grid-row: span 2;
+        grid-column: span 1;
+      }
+    }
+  }
+
+  // Використання функції для налаштування відступів на інших розмірах екрану
+  .box {
+    @media screen and (min-width: 768px) {
+      margin: responsive-margin($margin, 1.5);
+    }
+  }
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aee93e34-04c5-4f80-a27d-f36ca467ad39" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2oDSJ5LjBu4EHYbb6WyY3dUx7ES" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Gulp.js.default.executor": "Run",
+    "JavaScript Debug.ads.html.executor": "Run",
+    "JavaScript Debug.base.html.executor": "Run",
+    "JavaScript Debug.footer.html.executor": "Run",
+    "JavaScript Debug.header.html.executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.lab9.html.executor": "Run",
+    "JavaScript Debug.layout.html.executor": "Run",
+    "JavaScript Debug.logo.html.executor": "Run",
+    "JavaScript Debug.mainArticle.html.executor": "Run",
+    "JavaScript Debug.navigation.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "js.buildTools.gulp.gulp_package_dir": "D:/УНІК(2-курс)/WEB/lab10/node_modules/gulp",
+    "last_opened_file_path": "D:/УНІК(2-курс)/WEB/lab9/task4/task4.html",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\УНІК(2-курс)\WEB\lab10\lab9(4)" />
+      <recent name="D:\УНІК(2-курс)\WEB\lab10\lab9(2)\src\png" />
+      <recent name="D:\УНІК(2-курс)\WEB\lab10\lab9(1)" />
+      <recent name="D:\УНІК(2-курс)\WEB\lab10\lab9(2)" />
+      <recent name="D:\УНІК(2-курс)\WEB\lab10\lab9(1)\src\png" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aee93e34-04c5-4f80-a27d-f36ca467ad39" name="Changes" comment="" />
+      <created>1730402577158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730402577158</updated>
+      <workItem from="1730402578245" duration="1663000" />
+      <workItem from="1730442410771" duration="869000" />
+      <workItem from="1730443514245" duration="1727000" />
+      <workItem from="1730665344069" duration="378000" />
+      <workItem from="1730665811726" duration="1224000" />
+      <workItem from="1730667170080" duration="741000" />
+      <workItem from="1730667922656" duration="1208000" />
+      <workItem from="1730701821637" duration="655000" />
+      <workItem from="1730702613303" duration="1959000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,10 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        title task4
+        link(rel="stylesheet" href="task4.css")
+    body
+        main.grid
+            each num in [...Array(28).keys()].map(i => i + 1)
+                div.box= num
